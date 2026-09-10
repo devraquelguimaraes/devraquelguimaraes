@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080B12"/>
+      <stop offset="0.55" stop-color="#101827"/>
+      <stop offset="1" stop-color="#17102A"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58A6FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#58A6FF"/>
+      <stop offset="1" stop-color="#BC8CFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="45" height="45" patternUnits="userSpaceOnUse">
+      <path d="M45 0H0V45" fill="none" stroke="#58A6FF" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+
+  <rect width="1400" height="360" rx="18" fill="url(#bg)"/>
+  <rect width="1400" height="360" rx="18" fill="url(#grid)"/>
+
+  <path d="M0 286H1400" stroke="url(#line)" stroke-width="2"/>
+  <path d="M0 74H1400" stroke="url(#line)" stroke-width="1"/>
+  <path d="M1080 0L890 360" stroke="#BC8CFF" stroke-opacity=".16" stroke-width="2"/>
+  <path d="M1210 0L1020 360" stroke="#58A6FF" stroke-opacity=".10" stroke-width="2"/>
+
+  <g font-family="monospace">
+    <text x="80" y="72" font-size="15" fill="#58A6FF" letter-spacing="4">[ SYSTEM / BOOT SEQUENCE ]</text>
+    <text x="80" y="142" font-size="58" font-weight="700" fill="#F0F6FC" letter-spacing="3">SYSTEM ONLINE</text>
+    <text x="84" y="184" font-size="22" fill="#A8B3C7" letter-spacing="2">RAQUEL GUIMARÃES  //  SOFTWARE &amp; DATA</text>
+
+    <text x="84" y="235" font-size="13" fill="#6E7B91">CORE</text>
+    <text x="145" y="235" font-size="13" fill="#00FF9C">[ OK ]</text>
+    <text x="225" y="235" font-size="13" fill="#6E7B91">DATA</text>
+    <text x="280" y="235" font-size="13" fill="#00FF9C">[ ONLINE ]</text>
+    <text x="400" y="235" font-size="13" fill="#6E7B91">BUILD</text>
+    <text x="462" y="235" font-size="13" fill="#BC8CFF">[ ACTIVE ]</text>
+
+    <text x="84" y="318" font-size="12" fill="#526174">LEARN → BUILD → ANALYZE → IMPROVE</text>
+    <text x="1120" y="318" font-size="12" fill="#58A6FF">v1.0 // ONLINE</text>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle cx="1275" cy="108" r="5" fill="#58A6FF"/>
+    <circle cx="1300" cy="108" r="5" fill="#BC8CFF"/>
+    <circle cx="1325" cy="108" r="5" fill="#00FF9C"/>
+  </g>
+
+  <rect x="80" y="252" width="1240" height="1" fill="#58A6FF" opacity=".22"/>
+</svg>
