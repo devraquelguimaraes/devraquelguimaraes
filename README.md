@@ -173,21 +173,11 @@ $ ./raquel --current-mission
 
 ---
 
-# `> achievements`
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=devraquelguimaraes&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" />
-
-</div>
-
----
-
 # `> contribution.matrix`
 
 <div align="center">
 
-<img src="./assets/github-contribution-grid-snake-dark.svg" alt="Snake animation">
+<img src="https://raw.githubusercontent.com/devraquelguimaraes/devraquelguimaraes/output/github-contribution-grid-snake-dark.svg" alt="Snake animation">
 
 </div>
 
